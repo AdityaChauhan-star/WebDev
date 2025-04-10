@@ -1,7 +1,12 @@
-//Conditional Statements
-console.log("Before my if statement");
-let age = 23;
-if (age >= 18) {
-    console.log("You are an adult.");
+let color = "green";
+
+// Traffic Light Simulation
+if (color === "red") {
+    console.log("Stop!");
 }
-console.log("After my if statement");
+if (color === "yellow") {
+    console.log("Get ready to stop!");
+}
+if (color === "green") {
+    console.log("Go!");
+}
