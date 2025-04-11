@@ -1,4 +1,4 @@
-let color = "red";
+let color = "";
 
 // Traffic Light Simulation
 if (color === "red") {
@@ -7,6 +7,8 @@ if (color === "red") {
     console.log("Get ready to stop!");
 } else if (color === "green") {
     console.log("Go!");
+} else {
+    console.log("Traffic light is broken")
 }
 
 let marks = 33;
@@ -19,4 +21,11 @@ if (marks >= 90){
     console.log("C");
 } else if (marks <= 33) {
     console.log("F");
+}
+
+let age = 13;
+if (age >= 18) {
+    console.log("You can Vote");
+} else {
+    console.log("You can't Vote");
 }
