@@ -11,7 +11,7 @@ if (color === "red") {
     console.log("Traffic light is broken")
 }
 
-let marks = 33;
+let marks = 90;
 
 if (marks >= 90){
     console.log("A+");
@@ -28,4 +28,11 @@ if (age >= 18) {
     console.log("You can Vote");
 } else {
     console.log("You can't Vote");
+}
+
+//Logical Operators
+
+if (marks >= 33 && marks >= 80 ) {
+    console.log("Pass");
+    console.log("A+");
 }
