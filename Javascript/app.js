@@ -52,3 +52,12 @@ if (marks >= 33 && marks >= 80 ) {
     console.log("Pass");
     console.log("A+");
 }
+
+
+alert("This is a simple alert");
+let name = prompt("Enter your name ");
+console.log(name);
+console.log("This is a simple log");
+console.error("This is an error message");
+console.warn("This is a warning message");
+
