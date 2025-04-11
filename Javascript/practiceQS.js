@@ -9,3 +9,19 @@ if (size === "XL") {
 } else {
     console.log("Price is RS.50")
 }
+
+let str = "aditya";
+
+if(str[0] === "a" && str.length > 3) {
+    console.log("Good String");
+} else {
+    console.log("Not a good stirng");
+}
+
+let num = 12;
+
+if((num%3 === 0) && (( num+1 ==15 ) || (num-1 == 11) ) ) {
+    console.log("Safe");
+} else {
+    console.log("Unsafe");
+}
