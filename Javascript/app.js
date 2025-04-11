@@ -1,4 +1,4 @@
-let color = "";
+let color = "red";
 
 // Traffic Light Simulation
 if (color === "red") {
@@ -28,6 +28,22 @@ if (age >= 18) {
     console.log("You can Vote");
 } else {
     console.log("You can't Vote");
+}
+
+//Switch Statement
+let col = "red";
+switch(col) {
+    case "red" :
+        console.log("Stoopp");
+        break;
+    case "yellow" :
+        console.log("Slow down");
+        break;
+    case "green" :
+        console.log("GO");
+        break;
+    default :
+        console.log("Light Break")
 }
 
 //Logical Operators
