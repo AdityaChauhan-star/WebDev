@@ -54,10 +54,13 @@ if (marks >= 33 && marks >= 80 ) {
 }
 
 
-alert("This is a simple alert");
-let name = prompt("Enter your name ");
-console.log(name);
-console.log("This is a simple log");
-console.error("This is an error message");
-console.warn("This is a warning message");
+// alert("This is a simple alert");
+// let name = prompt("Enter your name ");
+// console.log(name);
+// console.log("This is a simple log");
+// console.error("This is an error message");
+// console.warn("This is a warning message");
+
+
+let msg = "  Hello World! ";
 
