@@ -63,4 +63,4 @@ if (marks >= 33 && marks >= 80 ) {
 
 
 let msg = "  Hello World! ";
-
+let msg2 = "ILoveCoding";
