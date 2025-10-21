@@ -12,6 +12,6 @@
 //     console.log("Hello to ",args[i]);
 // }/
 
-const value = require("./math");
+const info = require("./fruits");
 
-console.log(value);
+console.log(info);
