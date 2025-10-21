@@ -6,8 +6,12 @@
 
 // console.log("Bye");
 
-let args = process.argv;
+// let args = process.argv;
 
-for(let i=0; i<args.length; i++){
-    console.log("Hello to ",args[i]);
-}
+// for(let i=0; i<args.length; i++){
+//     console.log("Hello to ",args[i]);
+// }/
+
+const value = require("./math");
+
+console.log(value);
